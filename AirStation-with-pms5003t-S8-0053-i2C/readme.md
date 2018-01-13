@@ -26,5 +26,5 @@ CO2:用表情符号表示
 
 目前存在的问题，运行一段时间后，会自动重启（很快），不影响使用。
 
-如果您想要打赏，请用支付宝扫描https://github.com/pufand/NODEMCU/blob/master/AirStation-with-pms5003t-S8-0053-i2C/ThankYou.jpg中的二维码，谢谢！
+如果您想要打赏，请用支付宝扫描 https://github.com/pufand/NODEMCU/blob/master/AirStation-with-pms5003t-S8-0053-i2C/ThankYou.jpg 中的二维码，谢谢！
 ------------------by pufand ------------------

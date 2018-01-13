@@ -1,0 +1,8 @@
+srv2 = net.createServer(net.TCP)
+srv2:listen(81, function(conn)
+    conn:on("receive", function(sck, payload)
+        print(payload)
+        sck:send("HTTP/1.0 200 OK\r\nContent-Type: text/html\r\n\r\n{\"aqi\":"..aqi1..",\"pm25\":"..pm25..",\"pm10\":"..pm10..",\"temp\":"..temp..",\"hum\":"..hum..",\"co2\":"..co2.."}")
+    end)
+    conn:on("sent", function(sck) sck:close() end)
+end)

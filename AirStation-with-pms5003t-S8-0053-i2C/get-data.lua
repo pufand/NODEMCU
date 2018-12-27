@@ -44,7 +44,7 @@ function aqipm10(t)
 end --aqi_pm10
 
 function aqi(t25,t10)
-  if (t25 > t10) then return t10
+  if (t25 < t10) then return t10
   else return t25 
   end
 end --aqi
